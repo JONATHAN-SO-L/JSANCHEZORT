@@ -38,12 +38,42 @@ body {
 }
 
 #contact {
-    height: 35px;  
-    width: 35px;
+    height: 30px;  
+    width: 30px;
+    margin-right: 10px;
+}
+
+.container{
+    width: 90%;
+    border-radius: 3px;
+}
+
+#miModal:target{
+    opacity:1;
+    pointer-events:auto;
+}
+
+#form_correo {
+    display: block;
+    font-size: 16px;
+}
+
+#correo-index {
+    border: 2px;
+    padding: 10px;
+    background-clip: padding-box;
+    height: 100px;
+    width: 100px;
     margin-right: 10px;
 }
 
 footer {
     background-color: #2A2828;
     color: white;
+}
+
+#foot{
+    color: white;   /* Color del texto */
+    font-style: bold;   /* Estilo de la letra (Negritas) */
+    font-size: 15px;    /* Tamaño de la letra */
 }

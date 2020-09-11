@@ -14,43 +14,43 @@
 
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-  <a class="navbar-brand" href="#">
-    <img src="https://pensotec.com/wp-content/uploads/2015/06/service.png" alt="logo" style="width:40px;">
-  </a>
+    <a class="navbar-brand" href="#">
+      <img src="https://pensotec.com/wp-content/uploads/2015/06/service.png" alt="logo" style="width:40px;">
+    </a>
 
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">JONATHÁN SÁNCHEZ</a>
-    </li>
-    <li class="nav-item">
-	</li>
-  </ul>
-</nav>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">JONATHÁN SÁNCHEZ</a>
+      </li>
+      <li class="nav-item">
+      </li>
+    </ul>
+  </nav>
 
-<br>
+  <br>
 
-<div class="container">
-	<div id="accordion">
+  <div class="container">
+   <div id="accordion">
 
-  <div class="card">
-    <div class="card-header">
-      <a class="card-link acordeon" data-toggle="collapse" href="#collapseOne">
-        <center>¿QUIEN SOY?</center>
-      </a>
-    </div>
-    <div id="collapseOne" class="collapse show" data-parent="#accordion">
-      <div class="card-body" id="card-body">
-        <center>
-        	<strong>PT-B en Soporte y Mantenimiento de Equipo de Cómputo</strong>
-        	<br>Egresado del Colegio Nacional de Educación Profesional Técnica (CONALEP) 241 Plantel Cuernavaca en busca de <i>oportunidad</i> dentro del área de <strong>Administración de Servidores</strong> y/o Desarrollo Web (DevOps).<br>
-        </center>
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link acordeon" data-toggle="collapse" href="#collapseOne">
+          <center>¿QUIEN SOY?</center>
+        </a>
       </div>
-    </div>
-  </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body" id="card-body">
+          <center>
+           <strong>PT-B en Soporte y Mantenimiento de Equipo de Cómputo</strong>
+           <br>Egresado del Colegio Nacional de Educación Profesional Técnica (CONALEP) Plantel Cuernavaca 241 en busca de <i>oportunidad</i> dentro del área de <strong>Administración de Servidores</strong> y/o Desarrollo Web (DevOps).<br>
+         </center>
+       </div>
+     </div>
+   </div>
 
-  <div class="card">
+   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link acordeon" data-toggle="collapse" href="#collapseTwo">
         <center>¿AH QUÉ ME DEDICO EN MI TIEMPO LIBRE?</center>
@@ -128,27 +128,74 @@
 </div>
 
 <div class="botones">
-
 	<div class="container" align="center">
-		<a class="boton" href="https://github.com/JONATHAN-SO-L" target="_blank"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="repos" src="https://www.pngkey.com/png/full/178-1787243_github-icon-png-github-icon-white-png.png">MIS REPOSITORIOS</button></a>
+		<a class="boton" href="https://github.com/JONATHAN-SO-L" target="_blank"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="repos" src="img/repo.png">MIS REPOSITORIOS</button></a>
 
-		<a class="boton" href="/cv/cv.pdf"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="cv" src="https://4.bp.blogspot.com/-MXOGcpIt2Ac/WlxKGTwZFnI/AAAAAAAAAKk/FLqTJuXVDBwWOxvVeur5SC1ofEi5CiRSgCLcBGAs/s320/hd-flat-face-icon-cdr.jpg">MI CURRÍCULUM</button></a>
+		<a class="boton" href="cv/cv.pdf"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="cv" src="img/cv.png">MI CURRÍCULUM</button></a>
 
-		<a class="boton" href="/jsanchezort/config/"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="contact" src="https://lh3.googleusercontent.com/proxy/E_l7YvI4p7Q_x4OzHcaksaYG6nj5iJSGcKCLjurklXmriuYUCQEAbP3fX8MIeuiJkUKVPKGDqDtBqCdUpJJ5Iufp_FuvwqqJl3KrrK9Xo8D6F_l0Q8cN">CONTÁCTAME</button></a>
-	</div>
+    <button name="correo" style="margin: 10px" type="sumbit" class="btn btn-success btn-lg" data-toggle="modal" data-target="#miModal"><img id="contact" src="img/contacto.png">CONTÁCTAME</button>
+
+  </div>
 
 </div>
+</div>
+
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-contenido modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+        <br>
+        <div id="form_correo" class="container">
+
+          <div class="container">
+            <form class="form-inline"><img id="correo-index" src="img/correo.png" style="margin-top: 5px" ><h2 class="form-title" style="margin: 10px">CORREO ELECTRÓNICO</h2></form>
+
+            <form method="POST" action="correo.php">
+              <div>
+                <br>
+                <div class="form-group">
+                  <label><strong>NOMBRE :</strong></label>
+                  <input required="#" type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre o el de la empresa // institución">
+                </div>
+
+                <div class="form-group">
+                  <label><strong>E-MAIL :</strong></label>
+                  <input required="#" type="text" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico o el de la empresa // institución">
+                </div>
+
+                <div class="form-group">
+                  <label><strong>MENSAJE :</strong></label>
+                  <textarea required="#" class="form-control" rows="3" id="mensaje" name="mensaje" placeholder="Redacta tu mensaje aquí"></textarea>
+                </div>
+
+                <div class="form-group" align="center">
+                  <input type="submit" class="btn btn-primary" id="enviar" name="enviar" value="Enviar Correo">
+                </div><br>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 
 <br>
 
 <footer>
-	<div class="container" align="center">
-		<h4>¿DÓNDE RADICO?</h4>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.5542382777169!2d-99.23449927079898!3d18.921788799198566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU1JzE4LjQiTiA5OcKwMTQnMDIuMiJX!5e0!3m2!1ses-419!2smx!4v1599721421734!5m2!1ses-419!2smx" width="1000" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-	</div>
-
+ <div class="container" align="center">
+  <br><h4>¿DÓNDE RADICO?</h4><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.5542382777169!2d-99.23449927079898!3d18.921788799198566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU1JzE4LjQiTiA5OcKwMTQnMDIuMiJX!5e0!3m2!1ses-419!2smx!4v1599721421734!5m2!1ses-419!2smx" width="1000" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
 <br>
-
+<div class="container" align="center">
+  <p id="foot">All rights reserved. Copyrights by Jonathán Sánchez ©</p>
+</div>
+<br>
 </footer>
+<br>
 </html>

@@ -132,7 +132,7 @@
 	<div class="container" align="center">
 		<a class="boton" href="https://github.com/JONATHAN-SO-L" target="_blank"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="repos" src="https://www.pngkey.com/png/full/178-1787243_github-icon-png-github-icon-white-png.png">MIS REPOSITORIOS</button></a>
 
-		<a class="boton" href="/jsanchezort/cv/Jonathán_Jaziel_Sánchez_Ortiz.pdf"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="cv" src="https://4.bp.blogspot.com/-MXOGcpIt2Ac/WlxKGTwZFnI/AAAAAAAAAKk/FLqTJuXVDBwWOxvVeur5SC1ofEi5CiRSgCLcBGAs/s320/hd-flat-face-icon-cdr.jpg">MI CURRÍCULUM</button></a>
+		<a class="boton" href="/cv/cv.pdf"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="cv" src="https://4.bp.blogspot.com/-MXOGcpIt2Ac/WlxKGTwZFnI/AAAAAAAAAKk/FLqTJuXVDBwWOxvVeur5SC1ofEi5CiRSgCLcBGAs/s320/hd-flat-face-icon-cdr.jpg">MI CURRÍCULUM</button></a>
 
 		<a class="boton" href="/jsanchezort/config/"><button style="margin: 10px" type="sumbit" class="btn btn-success btn-lg"><img id="contact" src="https://lh3.googleusercontent.com/proxy/E_l7YvI4p7Q_x4OzHcaksaYG6nj5iJSGcKCLjurklXmriuYUCQEAbP3fX8MIeuiJkUKVPKGDqDtBqCdUpJJ5Iufp_FuvwqqJl3KrrK9Xo8D6F_l0Q8cN">CONTÁCTAME</button></a>
 	</div>

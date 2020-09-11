@@ -3,7 +3,7 @@
 <head>
 	<title>HOME</title>
 	<meta charset="utf-8">
-	<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/63/Code_vmc2015.png" type="image/icon">
+	<link rel="icon" href="img/favicon.png" type="image/icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
     <a class="navbar-brand" href="#">
-      <img src="https://pensotec.com/wp-content/uploads/2015/06/service.png" alt="logo" style="width:40px;">
+      <img src="img/logo.png" alt="logo" style="width:40px;">
     </a>
 
     <ul class="navbar-nav">
@@ -151,7 +151,7 @@
           <div class="container">
             <form class="form-inline"><img id="correo-index" src="img/correo.png" style="margin-top: 5px" ><h2 class="form-title" style="margin: 10px">CORREO ELECTRÓNICO</h2></form>
 
-            <form method="POST" action="correo.php">
+            <form method="POST" action="acciones/correo.php">
               <div>
                 <br>
                 <div class="form-group">
@@ -161,7 +161,7 @@
 
                 <div class="form-group">
                   <label><strong>E-MAIL :</strong></label>
-                  <input required="#" type="text" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico o el de la empresa // institución">
+                  <input required="#" type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico o el de la empresa // institución">
                 </div>
 
                 <div class="form-group">

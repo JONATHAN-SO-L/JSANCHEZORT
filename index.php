@@ -44,7 +44,7 @@
         <div class="card-body" id="card-body">
           <center>
            <strong>PT-B en Soporte y Mantenimiento de Equipo de Cómputo</strong>
-           <br>Egresado del Colegio Nacional de Educación Profesional Técnica (CONALEP) Plantel Cuernavaca 241 en busca de <i>oportunidad</i> dentro del área de <strong>Administración de Servidores</strong> y/o Desarrollo Web (DevOps).<br>
+           <br>Egresado del Colegio Nacional de Educación Profesional Técnica (CONALEP) Plantel Cuernavaca 241 en busca de <i><strong>oportunidad</strong></i> dentro del área de <strong>Administración de Servidores y/o Desarrollo Web (DevOps</strong>).<br>
          </center>
        </div>
      </div>
@@ -59,7 +59,7 @@
     <div id="collapseTwo" class="collapse" data-parent="#accordion">
       <div class="card-body">
         <center>
-        	Dedico mi tiempo libre a <strong>aprender cosas nuevas</strong> relacionadas a las tecnologías de la información, buscando desarrollarme profesionalmente como Developer y SysAdmin (DevOps).
+        	Dedico mi tiempo libre a <i><strong>aprender cosas nuevas</strong></i> relacionadas a las <strong>tecnologías de la información</strong>, buscando desarrollarme profesionalmente como <strong>Developer y SysAdmin (DevOps)</strong>.
         	<br>Sin dejar de lado el dedicar todo el tiempo necesario a mi familia y a disfrutar de la vida junto a su hermosa compañía
         </center>
       </div>
@@ -76,11 +76,11 @@
       <div class="card-body">
         <center>
         	<strong>CORTO PLAZO</strong>
-        	<br>Ser un Developer que proporcione soluciones e implemente tecnologías que faciliten tanto el uso como la experiencia de trabajo del usuario mediante aplicaciones web estructuradas y amigables para el uso rudimentario del día a día, adaptando las tecnologías a las necesidades de las empresas y clientes.<br><br>
+        	<br>Ser un <strong>Developer</strong> que proporcione <i><strong>soluciones</strong></i> e implemente tecnologías que faciliten tanto el uso como la experiencia de trabajo del usuario mediante <b>aplicaciones web estructuradas y amigables</b> para el uso rudimentario del día a día, adaptando las tecnologías a las necesidades de las empresas y clientes.<br><br>
         	<strong>MEDIANO PLAZO</strong>
-        	<br>Ser un SysAdmin que proporcione soluciones e implemente infraestructuras tecnologicas que faciliten el uso y experiencia de trabajo del usuario reduciendo costos mediante el uso de tecnologías OpenSource y/o de Código Abierto adaptandolas a las necesidades de las empresas y clientes.<br><br>
+        	<br>Ser un <strong>SysAdmin</strong> que proporcione soluciones e implemente <i><strong>infraestructuras tecnologicas</strong></i> que faciliten el uso y experiencia de trabajo del usuario <strong>reduciendo costos</strong> mediante el uso de tecnologías OpenSource y/o de Código Abierto adaptandolas a las necesidades de las empresas y clientes.<br><br>
         	<strong>LARGO PLAZO</strong>
-        	<br>Ser un Developer Operative (DevOps) que dirija, proponga, coordine, disponga e implemente tecnologías e infraestructuras tecnologicas que faciliten el uso y la experiencia de trabajo del usuario reduciendo costos mediante tecnologías de diferentes fuentes junto con aplicaciones web estructuradas basadas en lenguajes de programación aptos para cada situación dependiendo de las necesidades de las empresas, lugares, bienes y clientes.<br>
+        	<br>Ser un <strong>Developer Operative (DevOps)</strong> que dirija, proponga, coordine, disponga e <i><strong>implemente tecnologías e infraestructuras tecnologicas</strong></i> que faciliten el uso y la experiencia de trabajo del usuario reduciendo costos mediante tecnologías de diferentes fuentes junto con aplicaciones web estructuradas basadas en lenguajes de programación aptos <strong>para cada situación</strong>dependiendo de las necesidades de las empresas, lugares, bienes y clientes.<br>
         </center>
       </div>
     </div>
